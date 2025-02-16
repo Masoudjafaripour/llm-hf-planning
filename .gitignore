@@ -169,3 +169,13 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+# Ignore virtual environments
+env/
+venv/
+*.venv/
+
+# Ignore large model files
+src/model/model.safetensors
+
